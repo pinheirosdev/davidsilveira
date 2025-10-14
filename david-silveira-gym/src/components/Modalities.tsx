@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState } from 'react';
+import React from 'react'; 
 import '../styles/Modalities.css';
 import muaythayImage from '../assets/muay-thai.png'; 
 import useEmblaCarousel from 'embla-carousel-react'; 

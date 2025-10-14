@@ -1,6 +1,6 @@
 
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay'; 
 import Achievements from './Achievements';
@@ -28,15 +28,28 @@ const About: React.FC = () => {
     stopOnInteraction: false,
   }), []);
 
-  const [emblaRef, emblaApi] = useEmblaCarousel(
-    { 
-        loop: true, 
-        align: 'start',
-        slidesToScroll: 1,
-        containScroll: 'keepSnaps',
-    },
-    [Autoplay(autoplayOptions)] 
+  const [emblaRef, emblaApi] = useEmblaCarousel( 
+      { 
+          loop: true, 
+          align: 'start',
+          slidesToScroll: 1,
+          containScroll: 'keepSnaps',
+      },
+      [Autoplay(autoplayOptions)] 
   ); 
+
+React.useEffect(() => {
+    if (!emblaApi) return;
+    const onSelect = () => {
+    };
+
+    emblaApi.on('select', onSelect); 
+    
+    return () => {
+        emblaApi.off('select', onSelect);
+    };
+
+}, [emblaApi]); 
 
   return (
     <section className="about-section">

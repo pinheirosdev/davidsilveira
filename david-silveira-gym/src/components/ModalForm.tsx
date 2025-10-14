@@ -18,21 +18,17 @@ const ModalForm: React.FC<ModalFormProps> = ({ title, submitText, submissionType
     mensagem: '',
   });
 
-  const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+ const handleChange = (e: ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    let newValue = value;
+    let finalValue = value;
 
     if (name === 'nome') {
-      newValue = value.replace(/[^a-zA-Z\s\u00C0-\u017F]/g, '');
-    }
-
-    if (name === 'telefone') {
-      newValue = value.replace(/[^0-9]/g, '');
+      finalValue = value.replace(/[^a-zA-Z\s\u00C0-\u017F]/g, '');
     }
 
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [name]: finalValue,
     });
   };
 

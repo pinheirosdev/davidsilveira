@@ -1,4 +1,4 @@
-import React, { useState, type FormEvent, type ChangeEvent } from 'react';
+import React, { useState, type FormEvent } from 'react';
 import '../styles/Contact.css';
 
 const WHATSAPP_PHONE = '5543999230361';

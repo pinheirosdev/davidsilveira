@@ -13,7 +13,9 @@ const EmblaCarouselPagination: React.FC<PropType> = (props) => {
 
   const scrollTo = useCallback(
     (index: number) => {
-      emblaApi && emblaApi.scrollTo(index);
+      if (emblaApi) {
+          emblaApi.scrollTo(index);
+      }
     },
     [emblaApi]
   );
