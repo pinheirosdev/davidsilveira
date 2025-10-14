@@ -1,0 +1,120 @@
+.modalities-section {
+    padding: 80px 0;
+    background-color: #1a1a1a; 
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    color: var(--color-text-light);
+}
+
+.modalities-subtitle {
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin: 0 0 50px 0;
+    color: var(--color-primary-red);
+}
+
+.embla {
+  overflow: hidden; 
+  width: 100%;
+  padding-bottom: 77px;
+}
+
+.embla__container {
+  display: flex;
+  margin-left: calc(30px * -1); 
+}
+
+.embla__slide {
+  flex: 0 0 90%;
+  min-width: 0;
+  padding-left: 50px;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
+.modality-card {
+    background-color: var(--color-primary-dark);
+    padding: 20px;
+    border-radius: 8px;
+    border-top: 5px solid var(--color-primary-red); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 85%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.modality-card:hover {
+    box-shadow: 0 8px 25px rgba(229, 62, 62, 0.3); 
+}
+
+.modality-icon-wrapper {
+    margin: 20px auto 10px auto;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modality-image {
+    max-width: 50px; 
+    height: 50px;
+    object-fit: contain;
+}
+
+.modality-icon-emoji {
+    font-size: 3rem; 
+}
+
+.modality-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0 0 0 0;
+    color: var(--color-primary-red);
+}
+
+.modality-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--color-text-secondary);
+    min-height: 70px;
+}
+
+.modality-cta {
+    display: block; 
+    margin-top: 20px;
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 2px solid var(--color-text-light);
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modality-cta:hover {
+    color: var(--color-primary-red);
+    border-bottom-color: var(--color-primary-red);
+}
+
+@media (min-width: 768px) {
+    .embla__slide {
+        flex: 0 0 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .embla__slide {
+        flex: 0 0 30%;
+    }
+}

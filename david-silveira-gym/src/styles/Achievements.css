@@ -1,0 +1,115 @@
+.achievements-details {
+    background-color: #1a1a1a;
+    padding: 0 0;
+    margin-top: 40px;
+    
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.7s ease-in-out, padding 0.7s ease-in-out;
+}
+
+.achievements-details.active {
+    max-height: 1000px; 
+    padding: 40px 0;
+}
+
+.achievements-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.achievement-item {
+    font-size: 1.1rem;
+    color: var(--color-text-light);
+    font-weight: 500;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 20%;
+}
+
+.achievement-item > span {
+    margin-left: 10px;
+}
+
+.achievements-closing {
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+    .achievements-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*  */
+
+#history-details {
+    background-color: var(--color-primary-dark); 
+    margin-top: 0; 
+}
+
+.achievements-details.active + #history-details.active {
+    margin-top: 40px;
+}
+
+.history-content {
+    padding-top: 20px;
+}
+
+.history-paragraph {
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    color: var(--color-text-secondary);
+    text-align: left;
+}
+
+.history-subheading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.fighters-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.fighter-item {
+    font-size: 1rem;
+    color: var(--color-text-light);
+    font-weight: 500;
+    position: relative;
+    padding-left: 15px;
+}
+
+.fighter-item::before {
+    content: '•'; 
+    position: absolute;
+    left: 0;
+    color: var(--color-primary-red);
+    font-weight: 900;
+}
