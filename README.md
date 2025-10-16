@@ -1,47 +1,55 @@
-# 🥊 DAVID SILVEIRA | GYM & FIGHT
+<div align="center">
+  
+  [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:cttpinheiros.dev@gmail.com)
+  [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-p-5b1585265)
+  [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@PinheirosDev)
 
-Site institucional moderno e responsivo, focado na identidade visual preto, vermelho e branco da academia.
+  <img width="326" height="326" alt="logo-david" src="https://github.com/user-attachments/assets/0330c309-e85e-4c2a-ae7a-54a28193fbc1" />
+  <h1 align="center">🥊 David Silveira | Gym & Fight - Website</h1>
 
-## 🛠️ Stack Tecnológica
+  > Website de academia de artes marciais totalmente responsivo para todos os dispositivos, construído usando React TS.
 
-- **React** & **TypeScript**: Base da aplicação.
-- **Vite**: Ambiente de desenvolvimento rápido e *bundler*.
-- **CSS Puro**: Estilização manual para máximo controle de performance.
-- **Embla Carousel**: Implementação leve para carrosséis.
+  <a href="https://davidsilveira.netlify.app/"><strong>➥ Visualizar Website</strong></a>
 
-## 🚀 Guia Rápido
+</div>
 
-### Instalação
+<br />
+
+### 📋 Pré-requisitos
+
+Antes de começar, verifique se você atendeu aos seguintes requisitos:
+
+* [Git](https://git-scm.com/downloads "Download Git") deve estar instalado em seu sistema operacional.
+
+### 📍 Executar localmente
+
+Para executar o repositório localmente, execute este comando no seu git bash:
+
+Linux and macOS:
 
 ```bash
-# Clone o repositório
+sudo git clone https://github.com/pinheirosdev/davidsilveira.git
+```
+
+Windows:
+
+```bash
 git clone https://github.com/pinheirosdev/davidsilveira.git
+```
+
+Comandos:
+```bash
 cd davidsilveira
-```
-
-```bash
-# Navegue até a pasta do projeto
 npm install
-```
-
-### Desenvolvimento
-```bash
-# O servidor de desenvolvimento inicia o aplicativo (com HMR).
 npm run dev
 ```
 
-### Build para Produção
-```bash
-# Gera os arquivos otimizados prontos para deploy.
-npm run build
-```
-
-## 👨‍💻 Desenvolvedores
+### 👨‍💻 Desenvolvedor
 
 <table>
   <tr>
     <td>
-      <a href="https://github.com/pinheirosdev">
+      <a href="#">
         <img src="https://avatars.githubusercontent.com/u/124714182?v=4" width="100px;" alt="Lucas Pinheiro"/><br>
         <sub>
           <b>Lucas Pinheiro</b>
@@ -53,7 +61,7 @@ npm run build
 
 ### ☎️ Contato
 
-Se você quiser entrar em contato comigo, pode me encontrar no [Gmail](mailto:cttpinheiros.dev@gmail.com).
+Se você quiserentrar em contato comigo, pode me encontrar no [Gmail](mailto:cttpinheiros.dev@gmail.com).
 
 ### 📝 Licença
 
