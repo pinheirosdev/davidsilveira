@@ -1,5 +1,3 @@
-// src/App.tsx
-
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -7,11 +5,10 @@ import About from './components/About';
 import Modalities from './components/Modalities';
 import Contact from './components/Contact'; 
 import Footer from './components/Footer';
-import Modal from './components/Modal';       // <--- NOVO
-import ModalForm from './components/ModalForm.tsx'; // <--- NOVO
+import Modal from './components/Modal';   
+import ModalForm from './components/ModalForm.tsx'; 
 
 const App: React.FC = () => {
-  // ESTADO: null, 'MATRICULA' ou 'EXPERIMENTAL'
   const [activeModal, setActiveModal] = useState<'MATRICULA' | 'EXPERIMENTAL' | null>(null);
 
   const openModal = (type: 'MATRICULA' | 'EXPERIMENTAL') => {
@@ -27,9 +24,9 @@ const App: React.FC = () => {
       <Header onMatriculeClick={() => openModal('MATRICULA')} /> 
       <Hero onExperimentalClick={() => openModal('EXPERIMENTAL')} /> 
       
-      <div id="about"><About /></div>
-      <div id="modalities"><Modalities /></div>
-      <div id="contact"><Contact /></div>
+      <div id="professor"><About /></div>
+      <div id="modalidades"><Modalities /></div>
+      <div id="contato"><Contact /></div>
       <Footer />
       
       {activeModal && (

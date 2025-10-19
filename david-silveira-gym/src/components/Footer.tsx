@@ -27,9 +27,9 @@ const Footer: React.FC = () => {
           <h4>LINKS RÁPIDOS</h4>
           <ul>
             <li><a href="#">Início</a></li>
-            <li><a href="#about">O Mestre</a></li>
-            <li><a href="#modalities">Modalidades</a></li>
-            <li><a href="#contact">Contato</a></li>
+            <li><a href="#professor">O Professor</a></li>
+            <li><a href="#modalidades">Modalidades</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </div>
         

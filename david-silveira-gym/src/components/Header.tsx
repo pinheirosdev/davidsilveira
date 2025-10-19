@@ -8,9 +8,9 @@ const SLOGAN = 'GYM & FIGHT';
 
 const navLinks = [
   { name: 'Início', href: '#' },
-  { name: 'O Professor', href: '#about' },
-  { name: 'Modalidades', href: '#modalities' },
-  { name: 'Contato', href: '#contact' },
+  { name: 'O Professor', href: '#professor' },
+  { name: 'Modalidades', href: '#modalidades' },
+  { name: 'Contato', href: '#contato' },
 ];
 
 interface HeaderProps {
