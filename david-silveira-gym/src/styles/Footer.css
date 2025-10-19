@@ -94,6 +94,46 @@
     font-size: 0.85rem;
 }
 
+.footer-bottom {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.85rem;
+}
+
+.footer-bottom-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.developer-signature {
+    color: var(--color-text-secondary);
+    margin: 0;
+}
+
+.signature-link {
+    display: inline-flex; 
+    align-items: center;
+    color: var(--color-text-secondary); 
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.signature-link:hover {
+    color: var(--color-primary-red); 
+    text-decoration: underline;
+}
+
+.linkedin-icon {
+    font-size: 1.1em;
+    margin-left: 5px;
+    transform: translateY(2px);
+    color: inherit; 
+}
+
 @media (max-width: 768px) {
     .footer-content {
         flex-direction: column;
@@ -104,5 +144,12 @@
     }
     .footer-links ul {
         columns: 2;
+    }
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .developer-signature {
+        margin-top: 5px;
     }
 }

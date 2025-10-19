@@ -4,6 +4,7 @@ import logoImage from '../assets/logo-david.png';
 import instagramIcon from '../assets/instagram.png';
 import whatsappIcon from '../assets/whatsapp.png';
 import facebookIcon from '../assets/facebook.png';
+import { FaLinkedin } from 'react-icons/fa';
 
 const ACADEMIA_PHONE = '43991630462'; 
 
@@ -18,9 +19,6 @@ const Footer: React.FC = () => {
             alt="Logo David Silveira | Gym & Fight" 
             className="footer-logo"
           />
-          <p className="footer-description">
-            Transformando corpos e mentes através da disciplina das Artes Marciais. Treine com o Mestre David Silveira.
-          </p>
         </div>
         
         <div className="footer-col footer-links">
@@ -75,12 +73,24 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
-        
       </div>
-      
+
       <div className="footer-bottom">
-        <div className="container">
+        <div className="container footer-bottom-content">
           <p>&copy; {new Date().getFullYear()} David Silveira | Gym & Fight. Todos os direitos reservados.</p>
+          
+          <p className="developer-signature">
+            Desenvolvido por Lucas Pinheiro
+            <a 
+              href="https://www.linkedin.com/in/pinheiros-dev/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="signature-link"
+            >
+            <FaLinkedin className="linkedin-icon" /> 
+            </a>
+          </p>
+          
         </div>
       </div>
     </footer>
