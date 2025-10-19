@@ -149,10 +149,17 @@
     transition: opacity 0.3s;
 }
 
-.menu-icon-img {
-    width: 25px;
-    height: 25px;
+.menu-icon {
+    font-size: 2.5em;
     object-fit: contain;
+    color: whitesmoke;
+}
+
+.close-icon {
+    margin-right: -9px;
+    font-size: 3.4em;
+    object-fit: contain;
+    color: whitesmoke;
 }
 
 .menu-toggle-button:hover {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Header.css';
-import menuIcon from '../assets/menubar.png';
-import closeIcon from '../assets/close.png';
+import { IoIosClose } from 'react-icons/io';
+import { IoIosMenu } from 'react-icons/io';
 
 const ACADEMIA_NAME = 'DAVID SILVEIRA';
 const SLOGAN = 'GYM & FIGHT';
@@ -58,11 +58,7 @@ const Header: React.FC<HeaderProps> = ({ onMatriculeClick }) => {
 
         <div className="mobile-only">
           <button className="menu-toggle-button" onClick={toggleMenu} aria-expanded={isMenuOpen}>
-            <img 
-              src={isMenuOpen ? closeIcon : menuIcon} 
-              alt={isMenuOpen ? "Fechar Menu" : "Abrir Menu"}
-              className="menu-icon-img"
-            />
+            {isMenuOpen ? <IoIosClose className="close-icon" /> : <IoIosMenu className="menu-icon" />}
           </button>
         </div>
       </div>
