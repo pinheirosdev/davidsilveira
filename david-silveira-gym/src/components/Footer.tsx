@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/Footer.css';
 import logoImage from '../assets/logo-david.png'; 
-import instagramIcon from '../assets/instagram.png';
-import whatsappIcon from '../assets/whatsapp.png';
-import facebookIcon from '../assets/facebook.png';
 import { FaLinkedin } from 'react-icons/fa';
+import { FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaFacebook } from 'react-icons/fa';
 
 const ACADEMIA_PHONE = '43991630462'; 
 
@@ -49,7 +49,8 @@ const Footer: React.FC = () => {
               aria-label="WhatsApp" 
               className="social-link social-image-icon"
             >
-              <img src={whatsappIcon} alt="Ícone WhatsApp" className="social-icon-img" />
+              
+              <FaWhatsapp className="react-icon" /> 
             </a> 
             
             <a 
@@ -59,7 +60,7 @@ const Footer: React.FC = () => {
               aria-label="Instagram" 
               className="social-link social-image-icon"
             >
-              <img src={instagramIcon} alt="Ícone Instagram" className="social-icon-img" />
+              <FaInstagram className="react-icon" /> 
             </a>
             
             <a 
@@ -69,7 +70,7 @@ const Footer: React.FC = () => {
               aria-label="Facebook" 
               className="social-link social-image-icon"
             >
-              <img src={facebookIcon} alt="Ícone Facebook" className="social-icon-img" />
+              <FaFacebook className="react-icon" /> 
             </a>
           </div>
         </div>
@@ -87,7 +88,7 @@ const Footer: React.FC = () => {
               rel="noopener noreferrer"
               className="signature-link"
             >
-            <FaLinkedin className="linkedin-icon" /> 
+            <FaLinkedin className="react-icon" />
             </a>
           </p>
           
