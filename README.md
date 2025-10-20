@@ -4,12 +4,15 @@
   [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lucas-p-5b1585265)
   [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://www.youtube.com/@PinheirosDev)
 
-  <img width="326" height="326" alt="logo-david" src="https://github.com/user-attachments/assets/0330c309-e85e-4c2a-ae7a-54a28193fbc1" />
   <h1 align="center">🥊 David Silveira | Gym & Fight - Website</h1>
 
   > Website de academia de artes marciais totalmente responsivo para todos os dispositivos, construído usando React TS.
 
   <a href="https://davidsilveira.netlify.app/"><strong>➥ Visualizar Website</strong></a>
+
+  <br />
+
+  <img width="900" height="900" alt="banner-david" src="https://github.com/user-attachments/assets/92f96e26-129f-4e9c-a733-f399857edb3e" />
 
 </div>
 
