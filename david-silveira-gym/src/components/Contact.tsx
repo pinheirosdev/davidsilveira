@@ -1,7 +1,7 @@
 import React, { useState, type FormEvent } from 'react';
 import '../styles/Contact.css';
 
-const WHATSAPP_PHONE = '5543999230361';
+const WHATSAPP_PHONE = '5543991630462';
 const ACADEMIA_EMAIL = 'dlsilveira@hotmail.com';
 const ACADEMIA_PHONE = '43991630462'; 
 
