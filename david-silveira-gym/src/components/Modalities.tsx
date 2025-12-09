@@ -34,7 +34,13 @@ const modalities = [
     description: 'A arte suave foca em alavancas e posições de domínio no chão. Aumenta o foco, a disciplina e a capacidade de defesa, independentemente da força física.',
     icon: '🥋',
     image: null,
-  }
+  },
+  {
+    title: 'Karatê',
+    description: 'Desenvolva disciplina, foco e coordenação com o Karatê. Aulas para todas as idades, focadas na técnica tradicional e defesa pessoal.',
+    icon: '🥷🏻',
+    image: null,
+  },
 ];
 
 const Modalities: React.FC = () => {
