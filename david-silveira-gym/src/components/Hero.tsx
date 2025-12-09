@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ onExperimentalClick }) => {
         </h1>
 
         <p className="hero-subtitle">
-          Kickboxing, Muay Thai, Boxe e MMA. Transforme-se com o Mestre David Silveira.
+          Kickboxing, Muay Thai, Boxe, MMA e Karatê. Transforme-se com o Mestre David Silveira.
         </p>
 
         <button className="hero-cta-button" onClick={onExperimentalClick}>
