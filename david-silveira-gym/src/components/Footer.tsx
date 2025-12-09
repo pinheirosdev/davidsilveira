@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
           
           <div className="social-icons">
             <a 
-              href="https://api.whatsapp.com/send?phone=5543999230361" 
+              href="https://api.whatsapp.com/send?phone=5543991630462" 
               target="_blank" 
               rel="noopener noreferrer" 
               aria-label="WhatsApp" 
